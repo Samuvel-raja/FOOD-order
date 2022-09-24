@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.head{
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/30/00/38/food-3712592_960_720.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+ 
+}
+nav{
+    background-color: green;
+    opacity: 80%;
+    height:40px;
+    padding: 2px;
+    justify-content: space-around;
+}
+button{
+    width: 80px;
+    height: 40px;
+    opacity:100%;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    transform: scale(1.2);
+    color:black;
+    background-color: white;
+}
+.center{
+    align-items: center;
+    font-size: 50px;
+    text-align:center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+   }
+
+   input{
+    height:70px;
+    width: 250px;
+    border-radius: 20px;
+    border: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+   }
+   input:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.2);
+   }
+   .search
+   {
+    width:100px;
+    color:blue;
+    padding-left: 580px;
+    padding-top: 4px;
+    font-size: medium;
+   }
+  /* .center> img{
+    display: flex;
+    flex-direction:row;
+    padding-left: 500px;
+    width: 200px;
+    height: 200px;
+    opacity: 40%;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+   }*/
+   .main{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   }
+   .back{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 640px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+  
+   }
+   .back:hover{
+    color:aqua;
+    background-color: black;
+   }
+   .figcap
+   {
+display: flex;
+flex-direction: row;
+padding-left: 50px;
+justify-content: space-around;
+
+   }
+   figcaption>button{
+    width: 150px;
+background-color: orange;
+border-radius: 20px;
+   }
+   
+  body{
+  
+background-size: contain;
+  }
+  img{
+    border-radius: 20px;
+  }
+  img:hover{
+    transform:(1.5);
+    opacity: 30%;
+
+  }
+  .copyright{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height:50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  figcaption>button:hover{
+    background-color: aqua;
+    color: black;
+  }
+  h1{
+    text-align: center;
+    font-family:fantasy;
+    background-color: white;
+    opacity: 80%;
+  }
+  h1:hover{
+    color:green;
+    transform:(1.0);
+  }
